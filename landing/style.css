@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    flex: 1;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 64px;
+    margin-top: 8px;
+    justify-content: space-evenly;
+    padding: 0px 64px;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.header-text,
+.awesome-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: flex-start;
+    padding: 32px 0px 64px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+}
+
+.random-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    gap: 4px;
+}
+
+.duckie {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3888F2;
+    border-radius: 8px;
+}
+
+.awesome-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.random-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 24px;
+}
+
+
+button {
+    background-color: #3888F2;
+    border-radius: 8px;
+    padding: 6px 20px;
+    color: #F9FAF8;
+    border: 0px solid white;
+    margin-top: 12px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    font-weight: 100;
+}
+
+.quote-section .inspiring {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.thor {
+    margin-left: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.ad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.action-section{
+    background-color: #3888F2;
+    border-radius: 8px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    padding: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #F9FAF8;
+}
+.bottom-sign{
+    border: 2px solid white;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #F9FAF8;
+}
+
+.action-title{
+    font-size: 32px;
+}
