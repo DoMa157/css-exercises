@@ -1,4 +1,4 @@
-const container = document.querySelector("#container");
+const container = document.querySelector(".container");
 const pRed = document.createElement("p");
 pRed.style.color = "red";
 pRed.textContent = "Hey I'm red";
@@ -8,8 +8,8 @@ hBlue.style.color = "blue";
 hBlue.textContent = "Hey I'm Blue";
 container.append(hBlue);
 const childDiv = document.createElement("div");
-childDiv.backgroundColor = "pink";
-childDiv.border = "1px solid black";
+childDiv.style.backgroundColor = "pink";
+childDiv.style.border = "1px solid black";
 const hDiv = document.createElement("h1");
 const pDiv = document.createElement("p");
 hDiv.textContent = "Hey I'm in a DIV";
